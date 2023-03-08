@@ -14,7 +14,7 @@ public class Agenda {
         Contato contato3 = new Contato();
         Telefone telefone3 = new Telefone();
 
-        contato.nome = "Igor";
+        contato.nome = "Juliana";
         contato.numero = "222255";
         telefone.contato = contato;
 
@@ -23,13 +23,13 @@ public class Agenda {
         contato2.nome = "João";
         contato2.numero = "318989952";
         telefone2.marca = "IPhone";
-        telefone2.cor = "Preto";
+        telefone2.cor = "Azul";
 
         telefone3.contato = contato3;//associa o telefone 3 ao contato 3
         contato3.nome = "Carmem";
         contato3.numero = "3189871147";
         telefone3.marca = "S20";
-        telefone3.cor = "Branco";
+        telefone3.cor = "Preto";
 
         System.out.println(telefone2.contato.nome);
         System.out.println(telefone2.contato.numero);
@@ -45,7 +45,7 @@ public class Agenda {
         System.out.println(telefone3.contato.numero);
         System.out.println(telefone3.marca);
         System.out.println(telefone3.cor);
-        telefone3.Tocar("Pagode");
+        telefone3.Tocar("pagode");
         telefone3.Ligar(contato);
 
 
